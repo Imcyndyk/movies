@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #403873;
+  --secondary-color: #bf0449;
+  --dark-color: #590202;
+}
+
+.container {
+  width: 100%;
+}
+h1 {
+  color: var(--secondary-color) !important;
+}
+
+p {
+  font-size: 10px;
+  font-style: italic;
+}
+.btn-primary {
+  background-color: var(--dark-color) !important;
+  border-color: var(--dark-color) !important;
+  font-weight: bold;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+#movies {
+  margin: auto;
+  background-color: #590202;
+}
+
+#movies .card {
+  height: 30rem;
+  width: 18rem;
+  position: relative;
+}
+
+#movies .card-title {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#movies .card-year {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#movies .card-img {
+  max-width: 100%;
+  max-height: 72.99%;
+  width: auto;
+  height: auto;
+}
